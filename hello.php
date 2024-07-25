@@ -1,3 +1,7 @@
 <?php
-echo "hello world "
+$txt = "php";
+echo "i have $txt";
+echo "hello world ";
+
+
 ?>
