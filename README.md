@@ -1,0 +1,1 @@
+#this is the frist script of php and the date is 25/july/2024
