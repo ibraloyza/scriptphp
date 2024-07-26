@@ -38,10 +38,40 @@
         echo "both condition are true <br>";
     }
 
-    
+
     // phop if..else 
+    $d = date('H');
+    echo '<p> The hour (of the server ) is' .$d ;
+    echo ', and will give the following massage: </p>';
+    if ($d < '20'){
+        echo 'have a good day!<br>';
+    }else{
+        echo 'have a good night!<br>';
+    }
+
+    if($d <'20'){
+        echo "have a good morning!<br>";
+    }elseif($d <'20'){
+        echo 'have a good day!<br>';
+    }else{
+        echo 'have a good night!<br>';
+    }
     // php shorthand if 
-    // php nested if 
+    //one line if statement
+    $f = 5;
+    if($f <10) $r = 'hello <br>';
+    echo $r;
+    // php nested if
+    
+    //An if inside an if:
+     if ($f <10 ){
+        echo 'obave 10<br>';
+        if ($f <20){
+            echo 'and olso above 20 <br>';
+        }else{
+            echo 'but not above 20<br>';
+        }
+     }   
     ?>
 </body>
 </html>
