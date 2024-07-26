@@ -1,7 +1,8 @@
 <?php
 $txt = "php";
-echo "i have $txt<br>";
-echo "hello world <br> ";
+$hello = "hello world";
+echo strtoupper($hello);
+echo " i have $txt ";
 $id = 44;
 $name = "ibraahim hassan ahmed";
 $age = 24;
