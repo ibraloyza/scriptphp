@@ -134,6 +134,33 @@
     familyName("Eng A/rahman");
     familyName("Eng ibraahim");
 
+    //PHP Indexed Arrays + sort
+    $cars = array("volvo", "bmw", "toyota");
+    sort($cars);
+    $clength = count($cars);
+    for($x = 0; $x < $clength; $x++) {
+        echo $cars[$x];
+        echo "<br>";
+}
+    //var_dump($cars);
+    echo" $cars[0] <br>";
+    echo" $cars[1] .<br<";
+    echo "$cars[2]<br>"; 
+    array_push($cars, "ford");
+    foreach($cars as $x){
+        echo "$x<br>";
+    }
+
+
+    //Add Array Item
+    $fruits = array("Apple", "Banana", "Cherry");
+    array_push($fruits,"Orange", "Kiwi", "Lemon");
+    //Output the array:
+    var_dump($fruits);
+
+    //Remove Array Item
+    array_splice($cars, 1,1);
+    var_dump($cars);
 
     ?>
 </body>
