@@ -117,8 +117,22 @@
         $i+=10;
         echo "$i<br>";
     }
+    //Create a Function
+    function myMassage(){
+        echo "hello My Family!<br>";
+    }
 
-
+    myMassage();// call function
+    
+    //php function arguments
+    function familyName($fName) {
+        echo "$fName .<br>";
+    }
+    familyName("@~Eng Masoud");
+    familyName("Eng abdalla");
+    familyName("Eng sa,id");
+    familyName("Eng A/rahman");
+    familyName("Eng ibraahim");
 
 
     ?>
