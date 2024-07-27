@@ -71,7 +71,56 @@
         }else{
             echo 'but not above 20<br>';
         }
-     }   
+     }  
+     
+     //The PHP switch Statement
+     $favcolor = "green";
+     switch ($favcolor) {
+        case "green":
+          echo "Your favorite color is red!<br>";
+          break;
+        case "blue":
+          echo "Your favorite color is blue!<br>";
+          break;
+        case "green":
+          echo "Your favorite color is green!<br>";
+          break;
+        default:
+          echo "Your favorite color is neither red, blue, nor green!<br>";
+      }
+
+      //loops
+      //while loop
+      $i =1;
+      while($i <6){
+        echo $i;
+        $i++ ;
+      }
+     // The break Statement
+
+      $i =1;
+      while($i <6){
+        if ($i == 3) break;
+        echo $i ;
+        $i++;
+      }
+      //Alternative Syntax
+      $i =1;
+      while($i <6):
+        echo $i ;
+        $i++;
+      endwhile;
+
+      //step 10
+      $i = 0;
+      while ($i < 100) {
+        $i+=10;
+        echo "$i<br>";
+    }
+
+
+
+
     ?>
 </body>
 </html>
